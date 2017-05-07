@@ -36,5 +36,7 @@ navigation:
             url: "/docs/extras/recyclerview.html"
   - title: "About"
     url: "/about.html"
+  - title: "Changelog"
+    url: "https://github.com/filipproch/reactor-android/releases"
   - title: "Get library"
     url: "/index.html#add-library-to-your-project"
