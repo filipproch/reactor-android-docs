@@ -18,12 +18,14 @@ navigation:
             url: "/docs/architecture/example-simple.html"
       - title: "Core"
         children:
+          - title: "ReactorView"
+            url: "/docs/core/reactor-view.html"
+          - title: "ReactorTranslator"
+            url: "/docs/core/reactor-translator.html"
           - title: "Views"
             url: "/docs/core/views.html"
           - title: "Events"
             url: "/docs/core/events.html"
-          - title: "BaseTranslator"
-            url: "/docs/core/base-translator.html"
       - title: "Extras"
         children:
           - title: "Views"
