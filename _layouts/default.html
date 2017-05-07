@@ -41,17 +41,27 @@
 <section class="main-content container">
     <div class="row">
         {% for navitem in site.navigation %}
-            {% if navitem.subnav %}
-            {% if navitem.url == page.url or page.parent == navitem.id %}
-            <div class="col s1 m3">
-                <div class="collection">
-                    {% for item in navitem.subnav %}
-                    <a href="{{ item.url }}" class="collection-item grey-text text-darken-3 {% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-            {% endif %}
+        {% if navitem.subnav %}
+        {% if navitem.url == page.url or page.parent == navitem.id %}
+        <div class="col s1 m3">
+            <ul class="collection">
+                {% for item in navitem.subnav %}
+
+                <li class="collection-header"><h4>{{ item.title }}</h4></li>
+                {% for child in item.children %}
+                <li>
+                    <a href="{{ child.url }}"
+                       class="collection-item grey-text text-darken-3 {% if child.url == page.url %}active{% endif %}">
+                        {{ child.title }}
+                    </a>
+                </li>
+                {% endfor %}
+
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        {% endif %}
         {% endfor %}
 
         <div class="content col s1 m9">
