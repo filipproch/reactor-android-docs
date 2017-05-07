@@ -1,1 +1,20 @@
 theme: jekyll-theme-cayman
+
+title: "Reactor (Android library)"
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Documentation"
+    url: "/docs/"
+    id: "docs"
+    subnav:
+      - title: "Architecture"
+        url: "/docs/architecture.html"
+      - title: "Core"
+        url: "/docs/core.html"
+      - title: "Extras"
+        url: "/docs/extras.html"
+  - title: "About"
+    url: "/about.html"
+  - title: "Get library"
+    url: "/index.html#add-library-to-your-project"

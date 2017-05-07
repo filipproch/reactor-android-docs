@@ -1,17 +1,14 @@
 ---
-title: Reactor Android
+description: "Library for writing Android apps in a reactive way"
 ---
-
-# reactor-android
 
 [![Build Status](https://travis-ci.org/filipproch/reactor-android.svg?branch=master)](https://travis-ci.org/filipproch/reactor-android)
 ![Latest Version](https://api.bintray.com/packages/filipproch/maven/reactor-android/images/download.svg)
 
-Reactive Android architecture library
+Reactor is a small Android library to help you write your apps in a reactive and functional way. It helps you manage
+ the state of the application and separate your logic from the view.
 
-## How to use / Docs
-
-TBD
+See [documentation](/docs.html) to learn more.
 
 ## Add library to your project
 
