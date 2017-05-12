@@ -8,7 +8,7 @@ parent: docs
 // TODO
 ```
 
-### Events
+### UiEvents
 ```kotlin
 // TODO
 ```

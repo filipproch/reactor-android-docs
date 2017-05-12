@@ -1,0 +1,130 @@
+---
+---
+
+@import "variables";
+
+html, body {
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+footer .footer-copyright a {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #000;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  font-weight: 500;
+}
+
+.main-content h3 {
+  font-size: 1.25rem;
+}
+
+.main-content ul {
+  list-style-type: initial;
+  padding-left: 36px;
+}
+
+.main-content ul li {
+  list-style-type: initial;
+}
+
+.main-content ul.collection {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-content ul.collection li {
+  list-style-type: none;
+}
+
+.main-content .important-note {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: white;
+  word-wrap: normal;
+  background-color: $primary-color;
+  border: solid 1px $border-color;
+  border-radius: 2px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.main-content code {
+  color: $code-text-color;
+  background-color: $code-bg-color;
+  border: solid 1px $border-color;
+  border-radius: 2px;
+  padding: 4px 4px 2px;
+}
+
+.main-content pre {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: $code-text-color;
+  word-wrap: normal;
+  background-color: $code-bg-color;
+  border: solid 1px $border-color;
+  border-radius: 2px;
+
+  > code {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: $code-text-color;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+}
+
+.nav-wrapper .brand-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin: 0 0 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-wrapper .brand-logo img {
+  width: 48px;
+  height: 48px;
+  margin: 0 16px 0 0;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  background: #607D8B;
+}
+
+.main-content {
+  padding: 64px 0;
+}
+
+.collection .collection-item.active {
+  background-color: $primary-color;
+  color: #fff !important;
+}
+
+.collection .collection-header h4 {
+  font-size: 1.2rem;
+  padding: 20px 20px 12px;
+  font-weight: bold;
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+}

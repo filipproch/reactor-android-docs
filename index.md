@@ -4,11 +4,22 @@ description: "Library for writing Android apps in a reactive way"
 
 [![Build Status](https://travis-ci.org/filipproch/reactor-android.svg?branch=master)](https://travis-ci.org/filipproch/reactor-android)
 ![Latest Version](https://api.bintray.com/packages/filipproch/maven/reactor-android/images/download.svg)
+[![codecov](https://codecov.io/gh/filipproch/reactor-android/branch/master/graph/badge.svg)](https://codecov.io/gh/filipproch/reactor-android)
 
 Reactor is a small Android library to help you write your apps in a reactive and functional way. It helps you manage
  the state of the application and separate your logic from the view.
 
 See [documentation](/docs.html) to learn more.
+
+## KDoc / JavaDoc
+
+__Official KDoc is located here:__
+ - [reactor-android](https://reactor-android.firebaseapp.com/kdoc/library/)
+ - [reactor-android-extras](https://reactor-android.firebaseapp.com/kdoc/library-extras/)
+
+__Official JavaDoc is located here:__
+ - [reactor-android](https://reactor-android.firebaseapp.com/javadoc/library/)
+ - [reactor-android-extras](https://reactor-android.firebaseapp.com/javadoc/library-extras/)
 
 ## Add library to your project
 
