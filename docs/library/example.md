@@ -3,6 +3,10 @@ description: Documentation
 parent: docs
 ---
 
+## Example
+
+In this example, you can
+
 ### Activity
 ```kotlin
 // TODO

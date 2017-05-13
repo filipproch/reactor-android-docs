@@ -3,10 +3,6 @@ description: Documentation
 parent: docs
 ---
 
-### CompatReactorActivity
-
-TDB
-
-### ReactorFragment
+## Quick start
 
 TBD

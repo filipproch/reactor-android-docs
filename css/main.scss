@@ -10,17 +10,21 @@ html, body {
 
 body a {
   text-decoration: none !important;
+  color: $accent-color;
 }
 
-footer .footer-copyright a {
+.page-footer a {
   color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.main-content p a {
   text-decoration: underline !important;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: #000;
   font-size: 1.5rem;
-  margin-top: 3rem;
   font-weight: 500;
 }
 
@@ -46,17 +50,19 @@ footer .footer-copyright a {
   list-style-type: none;
 }
 
-.main-content .important-note {
+.main-content .note {
   padding: 0.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  color: white;
   word-wrap: normal;
-  background-color: $primary-color;
+  background-color: transparent;
   border: solid 1px $border-color;
   border-radius: 2px;
-  font-size: 1.25rem;
+}
+.main-content .important-note {
+  border: solid 4px #F44336;
   text-align: center;
+  font-size: 1.25rem;
 }
 
 .main-content code {
