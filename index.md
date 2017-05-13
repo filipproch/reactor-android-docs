@@ -35,6 +35,7 @@ dependencies {
 ```
 
 ### Snapshot builds
+![Build Status](https://circleci.com/gh/filipproch/reactor-android/tree/dev.svg?style=shield)
 
 You can use Jitpack.io to obtain latest SNAPSHOT builds
 
