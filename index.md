@@ -4,7 +4,7 @@ description: "Library for writing Android apps in a reactive way"
 
 ![Build Status](https://circleci.com/gh/filipproch/reactor-android/tree/master.svg?style=shield)
 ![Latest Version](https://api.bintray.com/packages/filipproch/maven/reactor-android/images/download.svg)
-[![codecov](https://codecov.io/gh/filipproch/reactor-android/branch/master/graph/badge.svg)](https://codecov.io/gh/filipproch/reactor-android)
+![codecov](https://codecov.io/gh/filipproch/reactor-android/branch/master/graph/badge.svg)
 
 Reactor is a small Android library to help you write your apps in a reactive and functional way. It helps you manage
  the state of the application and separate your logic from the view.
@@ -36,6 +36,7 @@ dependencies {
 
 ### Snapshot builds
 ![Build Status](https://circleci.com/gh/filipproch/reactor-android/tree/dev.svg?style=shield)
+![codecov](https://codecov.io/gh/filipproch/reactor-android/branch/dev/graph/badge.svg)
 
 You can use Jitpack.io to obtain latest SNAPSHOT builds
 
