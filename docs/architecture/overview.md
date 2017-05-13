@@ -150,5 +150,5 @@ data class FetchRepositoryResponse(
 
 <p class="important-note">
 It's important to note that <b>Translators</b> shouldn't contain any logic (apart from mapping <b>Events</b>
- to <b>Requests</b> and <b>Responses</b> to <b>UiModels</b> and <b>UiActions</b>)
+ to <b>Requests</b> and <b>Responses</b> to <b>UiModels</b> or <b>UiActions</b>)
 </p>

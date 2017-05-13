@@ -9,7 +9,7 @@ description: "Library for writing Android apps in a reactive way"
 Reactor is a small Android library to help you write your apps in a reactive and functional way. It helps you manage
  the state of the application and separate your logic from the view.
 
-See [documentation](/docs.html) to learn more.
+See [documentation](/docs/) to learn more.
 
 ## KDoc / JavaDoc
 
@@ -59,4 +59,5 @@ dependencies {
 
 ## Contribute
 
-TBD
+Contributions are welcome (both in terms of discussion and adding new features / fixing bugs).
+ I just want to note that you should look at the code around and keep the Code Style consistent.
